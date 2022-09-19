@@ -1,11 +1,9 @@
 const router = require('express').Router();
 
-const mongoose = require('mongoose');
 
 
-mongoose.connect(process.env.MONGO_URL_CONNECT, ()=>{
-    console.log("CONNECT TO MONGODB");
-});
+require('../Database/mongoConnecton'); // conecxao com o banco
+
 // quando utiliza o Roueter renomeia o app.get para router
 const portifolio = require('./portifolio');
 
