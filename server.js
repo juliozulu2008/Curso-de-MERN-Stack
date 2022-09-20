@@ -19,5 +19,5 @@ app.get('/', (req, res) =>{
 //middleware
 app.use('/api', api);
 
-const PORT = 3080;
+const PORT = process.env.PORT;
 app.listen(PORT);
