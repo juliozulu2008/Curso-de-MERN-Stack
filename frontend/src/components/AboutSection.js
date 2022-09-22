@@ -8,7 +8,7 @@ const AboutSection = ()=>{
             <Description>
                 <h2>Julio Cesar Dias</h2>
                 <h2>Sofware Developer</h2>
-                <p>I'm a Junior full-stack developer, I develop with "MERN" - Stack , MongoDB, Express.Js,
+                <p>I'm a Junior full-stack developer, I develop with "MERN" - Stack in JavaScript , MongoDB, Express.Js,
                    React.Js and Node.Js. In addition, I have knowledge in programming languages: 
                    JAVA, C#, Python and PHP. I am open to both national and international
                    proposals. Thank you!
